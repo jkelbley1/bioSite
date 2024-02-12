@@ -1,3 +1,87 @@
-img{	
-	width: 40%;
+#navbar{
+	font-family: 'Poppins', sans-serif;
+	background: #FFBEA1;
+	padding: 20px;
+	font-weight: 100;
+	font-display: swap;
+}
+
+#navbar a{
+	background: #ff9242;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#navbar a:hover{
+	text-decoration: underline;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+header h1{
+	text-align: center;
+	font-size: 4em;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-display: swap;
+}
+
+#container{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 1.25em;
+	color: #000000;
+
+}
+
+.VES{
+	display: grid;
+	grid-template-areas: 'p img';
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.VES img{
+	width: 90%;
+	padding-left: 5%;
+}
+
+.BOOT{
+	display: grid;
+	grid-template-areas: 'img p';
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.BOOT img{
+	width: 90%;
+	padding-left: 5%;
+}
+
+.MusicFestival{
+	display: grid;
+	grid-template-areas: 'p img';
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+.MusicFestival img{
+	width: 75%;
+	padding-left: 10%;
+}
+
+.text{
+	width: 90%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+hr{
+	border: 2px solid #FFBEA1;
 }

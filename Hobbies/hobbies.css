@@ -1,3 +1,107 @@
-img{	
+#navbar{
+	font-family: 'Poppins', sans-serif;
+	background: #FFBEA1;
+	padding: 20px;
+	weight: 100;
+	font-display: swap;
+}
+
+#navbar a{
+	background: #ff9242;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#navbar a:hover{
+	text-decoration: underline;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+header h1{
+	text-align: center;
+	font-size: 4em;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+	weight: 500;
+	font-display: swap;
+}
+
+#container{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 1.25em;
+	color: #000000;
+	text-align: center;
+}
+
+.Vertical_Line{
+	border-left: 3px solid #FFBEA1;
+	height: 785px;
+	left: 50%;
+	margin-left: -3px;
+	top: 0;
+}
+
+.horizontal{
+	display: grid;
+	grid-template-areas: 'Cooking Vertical_Line Baking';
+}
+
+.Cooking{
+	display: grid;
+	grid-template-areas:
+	'img'
+	'p';
+	padding-top: 3%;
+	padding-bottom: 3%;
 	width: 40%;
+	padding-left: 30%;
+	vertical-align: middle;
+}
+
+.Cooking img{
+	width: 100%;
+	padding-left: 5%;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.Baking{
+	display: grid;
+	grid-template-areas: 
+	'img'
+	'p';
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 40%;
+	padding-left: 30%;
+}
+
+.Baking img{
+	width: 80%;
+	padding-left: 5%;
+}
+
+.Izzy{
+	display: grid;
+	grid-template-areas: 'p img';
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+.Izzy img{
+	width: 40%;
+	padding-left: 30%;
+}
+
+.Izzy_text{
+	padding-top: 25%;
+	padding-right: 10%;
+}
+
+hr{
+	border: 2px solid #FFBEA1;
 }
