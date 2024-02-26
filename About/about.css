@@ -52,6 +52,12 @@ header h1{
 	padding-left: 25%;
 }
 
+.text{
+	background: #FFBEA1;
+	padding: 10px;
+	border-radius: 25px;
+}
+
 p{
 	margin: 0;
 	padding: 0;

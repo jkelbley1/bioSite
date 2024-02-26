@@ -37,8 +37,8 @@ header h1{
 }
 
 .Vertical_Line{
-	border-left: 3px solid #FFBEA1;
-	height: 785px;
+	border-left: 4px solid #FFBEA1;
+	height: 850px;
 	left: 50%;
 	margin-left: -3px;
 	top: 0;
@@ -47,13 +47,14 @@ header h1{
 .horizontal{
 	display: grid;
 	grid-template-areas: 'Cooking Vertical_Line Baking';
+	
 }
 
 .Cooking{
 	display: grid;
 	grid-template-areas:
 	'img'
-	'p';
+	'.cooking_text';
 	padding-top: 3%;
 	padding-bottom: 3%;
 	width: 40%;
@@ -86,7 +87,7 @@ header h1{
 
 .Izzy{
 	display: grid;
-	grid-template-areas: 'p img';
+	grid-template-areas: 'img .izzy_text';
 	padding-top: 3%;
 	padding-bottom: 3%;
 
@@ -97,9 +98,15 @@ header h1{
 	padding-left: 30%;
 }
 
-.Izzy_text{
+.izzy_text{
 	padding-top: 25%;
 	padding-right: 10%;
+}
+
+p{
+	background: #FFBEA1;
+	padding: 10px;
+	border-radius: 25px;
 }
 
 hr{

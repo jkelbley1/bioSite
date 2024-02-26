@@ -82,6 +82,12 @@ header h1{
 	text-align: center;
 }
 
+p{
+	background: #FFBEA1;
+	padding: 10px;
+	border-radius: 25px;
+}
+
 hr{
 	border: 2px solid #FFBEA1;
 }
